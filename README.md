@@ -9,4 +9,4 @@ Organization: fork this repository and put your session materials, links or anyt
 
 --- 
 
-*Thanks to for @jkuemerle the awesome suggestion!*
+*Thanks to for [@jkuemerle](https://github.com/jkuemerle) the awesome suggestion!*
