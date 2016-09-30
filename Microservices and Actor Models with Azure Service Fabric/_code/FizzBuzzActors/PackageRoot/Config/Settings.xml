@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Section Name="FizzBuzzEvaluatorActorServiceReplicatorConfig">
+    <Parameter Name="ReplicatorEndpoint" Value="FizzBuzzEvaluatorActorServiceReplicatorEndpoint" />
+    <Parameter Name="BatchAcknowledgementInterval" Value="0.005" />
+  </Section>
+  <Section Name="FizzBuzzEvaluatorActorServiceReplicatorSecurityConfig">
+    <Parameter Name="CredentialType" Value="None" />
+  </Section>
+  <Section Name="ResultReporterActorServiceReplicatorConfig">
+    <Parameter Name="ReplicatorEndpoint" Value="ResultReporterActorServiceReplicatorEndpoint" />
+    <Parameter Name="BatchAcknowledgementInterval" Value="0.005" />
+  </Section>
+  <Section Name="ResultReporterActorServiceReplicatorSecurityConfig">
+    <Parameter Name="CredentialType" Value="None" />
+  </Section>
+  <Section Name="WorkloadDistributorActorServiceReplicatorConfig">
+    <Parameter Name="ReplicatorEndpoint" Value="WorkloadDistributorActorServiceReplicatorEndpoint" />
+    <Parameter Name="BatchAcknowledgementInterval" Value="0.005" />
+  </Section>
+  <Section Name="WorkloadDistributorActorServiceReplicatorSecurityConfig">
+    <Parameter Name="CredentialType" Value="None" />
+  </Section>
+  <Section Name="ApplicationEntryPointActorServiceReplicatorConfig">
+    <Parameter Name="ReplicatorEndpoint" Value="ApplicationEntryPointActorServiceReplicatorEndpoint" />
+    <Parameter Name="BatchAcknowledgementInterval" Value="0.005" />
+  </Section>
+  <Section Name="ApplicationEntryPointActorServiceReplicatorSecurityConfig">
+    <Parameter Name="CredentialType" Value="None" />
+  </Section>
+  <!-- The content will be generated during build -->
+</Settings>

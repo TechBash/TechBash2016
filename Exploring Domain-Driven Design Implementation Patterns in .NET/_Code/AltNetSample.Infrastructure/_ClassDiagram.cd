@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AltNetSample.Domain.Address" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AltNetSample.Domain.Customer" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AltNetSample.Domain.Destination" Collapsed="true">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AltNetSample.Domain.Order" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AltNetSample.Domain.CustomerNameChangeRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Proteus.Domain.Foundation.IdentityPersistenceBase&lt;TObject, TIdentity&gt;" Collapsed="true">
+    <Position X="1" Y="0.75" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proteus.Domain.Foundation.ValueObjectBase&lt;TObject&gt;" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AltNetSample.Domain.CustomerAddressChangeRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AltNetSample.Infrastructure.Customers" Collapsed="true">
+    <Position X="3.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAQAAAgAAACAAAAAAAAAAkAAAAAA=</HashCode>
+      <FileName>Customers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AltNetSample.Infrastructure.GroundShipper" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GroundShipper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AltNetSample.Infrastructure.AirFreightShipper" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirFreightShipper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AltNetSample.Domain.CanAddOrderRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AltNetSample.Domain.OutstandingOrderRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="AltNetSample.Domain.ICustomerRepository">
+    <Position X="3.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AltNetSample.Domain.IShippingService" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="AltNetSample.Domain.OrderStatus" Collapsed="true">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="AltNetSample.Domain.ShippingResult" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
