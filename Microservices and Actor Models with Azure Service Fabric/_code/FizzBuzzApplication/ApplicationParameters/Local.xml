@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/FizzBuzzApplication" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="FizzBuzzWebGateway_InstanceCount" Value="1" />
+    <Parameter Name="FizzBuzzEvaluatorActorService_PartitionCount" Value="1" />
+    <Parameter Name="ResultReporterActorService_PartitionCount" Value="1" />
+    <Parameter Name="WorkloadDistributorActorService_PartitionCount" Value="1" />
+    <Parameter Name="ApplicationEntryPointActorService_PartitionCount" Value="1" />
+  </Parameters>
+</Application>
