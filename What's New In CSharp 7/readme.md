@@ -17,10 +17,10 @@ In this session, you'll learn the new C# 7 syntax through code demos and see how
 ## Speaker
 
 Scott Kay
-(scott.kay@digimain.net / @syntaxn0de)
+ ([scott.kay@digimain.net](mailto:scott.kay@digimain.net) / [@syntaxn0de](https://twitter.com/syntaxn0de))
 
 
 
 ## Code Prerequisites
 
-The source code for this presentation was written for Visual Studio 15 Preview 4. It will not work in older versions and may not work in newer versions, as the language features for C# 7 are still being developed.
+The source code for this presentation was written for [Visual Studio 15 Preview 4](https://www.visualstudio.com/visual-studio-pre-release-downloads/). It will not work in older versions and may not work in newer versions, as the language features for C# 7 are still being developed.
