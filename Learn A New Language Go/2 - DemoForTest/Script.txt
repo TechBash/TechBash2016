@@ -1,0 +1,8 @@
+go test
+go test -v
+go test -cover
+go test -coverprofile=test.out
+go tool cover -func=test.out
+go tool cover -html=test.out
+go test -covermode=count -coverprofile=test.out
+go tool cover -html=test.out
