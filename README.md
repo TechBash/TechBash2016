@@ -1,4 +1,4 @@
-TechBash 2016   ![TechBash Logo](http://techbash.com/img/logo-small.png)
+![TechBash 2016 Logo](http://techbash.com/img/2016/techbash2016.png)
 ============
 
 TechBash 2016 session decks, sample code, links and other stuff. Be sure to use #TechBash2016 when posting in social media.
